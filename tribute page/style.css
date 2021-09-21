@@ -1,0 +1,150 @@
+body{
+     font-family: "Audiowide", sans-serif;
+     background-color: #ffffff;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:1%;
+    margin-right:1%;
+    background-color: #ece7e7;
+ 
+   
+}
+#title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:40% ;
+
+}
+#title h3{
+    font-size: 40px;
+}
+#title h4{
+    margin-left:5% ;
+    font-weight: normal;
+}
+#img-div{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:-1%;
+    background-color: #ffffff;
+
+}
+#image{
+
+   
+    width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+  
+
+}
+#img-caption{
+
+       display: flex;
+    justify-content: center;
+    font-weight: normal;
+
+}
+
+#tribute-info{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#tribute-info h3{
+    margin-left: 40%;
+}
+
+#tribute-info ul{
+    margin-left: 30%;}
+#tribute-info ul li{
+    padding-top: 10px;}
+
+#tribute-info p{
+    margin-left: 30%;
+    font-style: italic;
+}
+#tribute-info h4{
+    margin-left: 25%;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 450px) {
+
+    #main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:1%;
+    margin-right:1%;
+    background-color: #ece7e7;
+    }
+
+    #title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:20% ;
+
+}
+#title h3{
+    font-size: 30px;
+}
+#title h4{
+    margin-left:5% ;
+    font-weight: normal;
+}
+#img-caption{
+
+       display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 15x;
+    padding-left: 2px;
+      margin-left: 3px;
+
+}
+#tribute-info{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#tribute-info h3{
+    margin-left: 7%;
+}
+
+#tribute-info ul{
+    margin-left: 4%;
+    margin-right: 3%;
+    }
+#tribute-info ul li{
+    padding-top: 10px;}
+
+#tribute-info p{
+    margin-left: 3%;
+    font-style: italic;
+}
+#tribute-info h4{
+    margin-left: 7%;
+    margin-right: 3%;
+    font-size: 20px;
+    
+}
+ 
+}

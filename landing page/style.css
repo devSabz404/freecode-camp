@@ -1,0 +1,244 @@
+#header{
+    display: flex;
+   justify-content: space-between;
+
+}
+#nav-bar{
+    position: fixed;
+}
+#nav-bar ul{
+     
+    display: flex;
+   justify-content: space-around;
+   padding-right: 50px;
+   list-style-type: none;
+   
+
+}
+#nav-bar ul li{
+    
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+#formy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+      margin-right: 70%;
+}
+#submit{
+     background-color: rgb(243, 197, 47);
+  font-size: 20px;
+   color: white;
+  padding: 10px 20px;
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+   
+}
+#email{
+    padding: 10px 25px;
+}
+.feat{
+
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.feat img{
+    padding-right: 5%;
+}
+#videos{
+     display: flex;
+    
+    justify-content: center;
+    margin-top: 4%;
+   
+}
+#tromb{
+
+    display:flex;
+    justify-content:center ;
+
+}
+
+
+.row{
+      margin-left: 20%;
+      margin-top: 3%;
+      padding-bottom: 15%;
+}
+.column {
+    border: 1px solid rgb(46, 44, 44);
+    height: 300px;
+  float: left;
+  width: 22.2%;
+  padding: 8px;
+   box-sizing: border-box;
+     margin-left: 2%;
+ 
+}
+.column h3{
+     background-color:rgb(163, 151, 151);
+  color: white;
+  font-size: 25px;
+  width:100% ;
+  margin-top: -10;
+}
+
+.column .grey {
+  background-color: #eee;
+  font-size: 20px;
+   display: flex;
+    justify-content: center;
+    margin-right: 40%;
+}
+.column button {
+  background-color: rgb(243, 197, 47);
+  font-size: 20px;
+   color: white;
+  padding: 10px 25px;
+   display: flex;
+   justify-content: center;
+   margin-left: 25%;
+}
+.column ul{
+    list-style-type: none;
+}
+
+.column ul li{
+    font-size: 20px;
+     margin-left: 20%;
+   
+
+}
+
+.footer {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(163, 151, 151);
+  color: white;
+  text-align: center;
+}
+#pricing{
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 466px) {
+    
+    #formy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+      margin-right: 10%;
+}
+#submit{
+     background-color: rgb(243, 197, 47);
+  font-size: 20px;
+   color: white;
+  padding: 10px 20px;
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+   
+}
+#email{
+    padding: 10px 25px;
+}
+
+.row{
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-top: 3%;
+      padding-bottom: 15%;
+      display: flex;
+      flex-direction: column;
+}
+.column {
+    border: 1px solid rgb(46, 44, 44);
+    height: 300px;
+
+  width: 100%;
+  padding: 8px;
+   box-sizing: border-box;
+     margin-left: 2%;
+ 
+}
+.column h3{
+     background-color:rgb(163, 151, 151);
+  color: white;
+  font-size: 25px;
+  width:100% ;
+  margin-top: -10;
+}
+
+.column .grey {
+  background-color: #eee;
+  font-size: 20px;
+   display: flex;
+    justify-content: center;
+    margin-right: 40%;
+}
+.column button {
+  background-color: rgb(243, 197, 47);
+  font-size: 20px;
+   color: white;
+  padding: 10px 25px;
+   display: flex;
+   justify-content: center;
+   margin-left: 25%;
+}
+.column ul{
+    list-style-type: none;
+}
+
+.column ul li{
+    font-size: 20px;
+     margin-left: 20%;
+   
+
+}
+
+.footer {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(163, 151, 151);
+  color: white;
+  text-align: center;
+}
+#pricing{
+    margin-bottom: 5%;
+}
+}
+
+@media (max-width: 430px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+}
